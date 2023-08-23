@@ -27,7 +27,7 @@ You can use this tool to create and store notes. Here are the available
 commands and options:
 
 ```shell
-note-taking-tool [OPTIONS]
+notes [OPTIONS]
 
 FLAGS:
     -h, --help       Prints help information
@@ -43,7 +43,7 @@ OPTIONS:
 
 - To create a new note with a specific filename:
   ```shell
-  note-taking-tool -f my_note.txt -n "This is my note content."
+  notes -f my_note -n "This is my note content."
   ```
 
 - If you don't specify a filename or note content, the tool will prompt 
